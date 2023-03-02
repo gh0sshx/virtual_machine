@@ -1,0 +1,8 @@
+#Target
+if [[ $(cat /home/ghost/VPN/.target) == "" ]]; then echo "Target: --.--.--.--"; else echo "Target: " && cat /home/ghost/VPN/.target; fi && echo "   "
+
+#VPN
+if [[ $(ip -4 addr show tun0 2>&1) == *"does not exist." ]]; then echo "VPN Not Online"; else echo "  VPN: " && ip -4 addr show tun0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'; fi && echo "    "
+
+#LAN
+if [[ $(ip -4 addr show ens33 2>&1) == *"does not exist." ]]; then echo "Error conection"; else echo "  LAN: " && ip -4 addr show ens33 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'; fi && echo "    "
