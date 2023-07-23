@@ -284,14 +284,34 @@
     ZSH_HIGHLIGHT_STYLES[bracket-level-5]=fg=cyan,bold
     ZSH_HIGHLIGHT_STYLES[cursor-matchingbracket]=standout
 
+**Habilitar plugins**
 
+    plugins=(git sudo zsh-syntax-highlighting)
 
+**Instalar extensiones**
 
-    
+    Clock Left
+>
 
+    Improved Workspace Indicator
 
+## Instalar Dropbox
 
+> https://www.dropbox.com/es/install-linux
+  
+    sudo dpkg -i 
 
+>
+
+    sudo apt install -f
+
+>
+
+    sudo dpkg -i 
+
+>
+
+    Dropbox start -i
 
 
 
