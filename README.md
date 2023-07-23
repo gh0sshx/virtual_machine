@@ -227,9 +227,33 @@
 
     if [[ $(ip addr show dev wlan0 | grep 'inet ' | awk '{print $2}' | cut -f1 -d'/') == "" ]]; then echo "wlan0󰖪"; else echo "wlan0 󱚻 " && ip -4 addr show wlan0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}';fi && echo "   "
 
+**LEFT**
+
+    echo "󰕥 "; cat /etc/hostname
+
+### Cambiar nombre de equipo (opcional)
+
+    hostname
+
+>
+
+    sudo hostname nuevo_nombre
+
+**Reemplazar antiguo nombre**
+
+    sudo nano /etc/hostname
+
+>
+
+    sudo nano /etc/hosts
+
+**(solo con tema fox) cambiar icono**
+
+    󰂧 
+
 ### Agregar color en terminal
 
-**Instalar zsh plugin
+**Instalar zsh plugin**
 
 > https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 
@@ -294,6 +318,10 @@
 >
 
     Improved Workspace Indicator
+
+>
+
+    Caffeine
 
 ## Instalar Dropbox
 
