@@ -26,7 +26,17 @@
 
 ### CRACKMAPEXEC
 
-> ...
+> https://github.com/byt3bl33d3r/CrackMapExec/wiki/Installation
+
+    sudo python3 -m pip install pipx
+
+>
+
+    pipx ensurepath
+
+>
+
+    pipx install crackmapexec
 
 ### PROXYCHAINS
 
