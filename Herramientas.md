@@ -1,5 +1,15 @@
 # INSTALAR HERRAMIENTAS
 
+### BATCAT
+
+    sudo apt install bat
+
+**Configurar alias**
+
+    alias ncat="cat"
+    alias cat="bat"
+    
+
 ### SECLIST
 
     wget -c https://github.com/danielmiessler/SecLists/archive/master.zip -O SecList.zip \
