@@ -6,8 +6,7 @@
 
 **Configurar alias**
 
-    alias ncat="cat"
-    alias cat="bat"
+    alias bcat="bat"
     
 
 ### SECLIST
