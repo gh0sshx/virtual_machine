@@ -46,6 +46,9 @@
 
     sudo make install
 
+**Crear alias en la bashrc o zshrc**
+
+    alias proxychains="proxychains4"
 
 
 
