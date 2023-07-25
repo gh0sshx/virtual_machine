@@ -69,10 +69,6 @@
 
     alias proxychains="proxychains4"
 
-> (Opcional) Arreglar problema con dlsym, en Makefile linea 85 cambiar a:
-
-    $(CC) -shared  $(LDFLAGS) $(LD_SET_SONAME)$(LDSO_PATHNAME)  -lpthread $(LIBDL) -o $@ $(LOBJS)
-
 
 
 
