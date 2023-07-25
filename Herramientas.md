@@ -22,29 +22,29 @@
 
 **Eliminar proxychains**
 
-        sudo apt remove proxychains 
+    sudo apt remove proxychains 
 
 >
 
-        sudo apt autoremove
+    sudo apt autoremove
 
 > https://github.com/haad/proxychains
 
-**Clonar repositorio**
+**Clonar repositorio**    
 
-        git clone https://github.com/haad/proxychains.git
+    git clone https://github.com/haad/proxychains.git
 
 > necesita un compilador de C que funcione, preferiblemente gcc
 
-        ./configure
+    ./configure
 
 >
 
-        make
+    make
 
 >
 
-        sudo make install
+    sudo make install
 
 
 
