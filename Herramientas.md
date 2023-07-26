@@ -47,7 +47,9 @@
 
     sudo apt install proxychains4 proxychains
 
+### SEARCHSPLOIT
 
+    sudo apt -y install exploitdb
 
 
 
