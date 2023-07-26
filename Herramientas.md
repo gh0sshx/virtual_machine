@@ -51,6 +51,25 @@
 
     sudo apt -y install exploitdb
 
+### KERBRUTE
+
+> https://github.com/ropnop/kerbrute
+
+> guardar en el env
+
+    sudo ln -s /opt/kerbrute/kerbrute /usr/bin/kerbrute
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
