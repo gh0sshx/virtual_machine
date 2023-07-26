@@ -43,31 +43,9 @@
 
     sudo apt remove proxychains 
 
->
+**Instalar proxychains4**
 
-    sudo apt autoremove
-
-> https://github.com/haad/proxychains
-
-**Clonar repositorio**    
-
-    git clone https://github.com/haad/proxychains.git
-
-> necesita un compilador de C que funcione, preferiblemente gcc
-
-    ./configure
-
->
-
-    make
-
->
-
-    sudo make install
-
-**Crear alias en la bashrc o zshrc**
-
-    alias proxychains="proxychains4"
+    sudo apt install proxychains4 proxychains
 
 
 
